@@ -67,14 +67,14 @@ set incsearch
 set ignorecase
 
 " Undo
-set undodir=~/.config/nvim/undodir
+set undodir=~/.vim/undodir
 set undofile
 set undolevels=1000
 set undoreload=10000
 
 " Swaps
-set backupdir=~/.config/nvim/swaps
-set directory=~/.config/nvim/swaps
+set backupdir=~/.vim/swaps
+set directory=~/.vim/swaps
 
 " Default statusline
 set statusline=%<%F\ %h%m%r%=%-14.(%l,%c%V%)\ %P
